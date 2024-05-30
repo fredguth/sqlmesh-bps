@@ -1,0 +1,8 @@
+2024-05-28 15:06:32,337 - MainThread - sqlmesh.core.config.connection - INFO - Creating new DuckDB adapter for data files: {'data/catalog.db'} (connection.py:255)
+2024-05-28 15:06:32,421 - MainThread - sqlmesh.core.config.connection - INFO - Creating new DuckDB adapter for in-memory database (connection.py:257)
+2024-05-28 15:06:32,463 - MainThread - sqlmesh.core.renderer - WARNING - Column '"codigo_regiao"' could not be resolved for model '"catalog"."dtb"."territorio"', the column may not exist or is ambiguous (renderer.py:528)
+2024-05-28 15:06:32,466 - MainThread - sqlmesh.core.renderer - WARNING - Column '"idCompra"' could not be resolved for model '"catalog"."siasg"."compras"', the column may not exist or is ambiguous (renderer.py:528)
+2024-05-28 15:06:32,468 - MainThread - sqlmesh.core.renderer - WARNING - Column '"codigoGrupo"' could not be resolved for model '"catalog"."siasg"."materiais"', the column may not exist or is ambiguous (renderer.py:528)
+2024-05-28 15:06:32,470 - MainThread - sqlmesh.core.renderer - WARNING - Column '"codigoUasg"' could not be resolved for model '"catalog"."siasg"."uasgs"', the column may not exist or is ambiguous (renderer.py:528)
+2024-05-28 15:06:32,471 - MainThread - sqlmesh.core.renderer - WARNING - Column '"codigoPdm"' could not be resolved for model '"catalog"."siasg"."unidades"', the column may not exist or is ambiguous (renderer.py:528)
+2024-05-28 15:06:32,492 - MainThread - sqlmesh.core.config.connection - INFO - Using existing DuckDB adapter due to overlapping data file: data/catalog.db (connection.py:250)

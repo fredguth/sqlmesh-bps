@@ -1,2 +1,5 @@
 seeds/*
 seeds/**/*
+.cache/**/*
+.bps-sqlmesh-env
+*.db*

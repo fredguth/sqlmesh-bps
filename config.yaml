@@ -2,9 +2,10 @@ gateways:
     local:
         connection:
             type: duckdb
-            database: db.db
+            database: data/catalog/catalog.db
 
 default_gateway: local
 
 model_defaults:
-    dialect: duckdb
+    dialect: duckdb, normalization_strategy=case_sensitive
+    

@@ -1,3 +1,4 @@
+-- Dados sobre categorias de materiais da saúde extraídas do sistema SIASG (módulo CATMAT) do MGI através da API pública de compras do governo federal https://dadosabertos.compras.gov.br/swagger-ui/index.html#
 MODEL (
   name siasg.materiais,
   kind FULL,

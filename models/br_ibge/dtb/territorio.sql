@@ -1,12 +1,11 @@
--- Divisão Territorial Brasileira: Apresenta a relação de subdistritos, distritos e municípios que compõem a divisão territorial brasileira oficial segundo o IBGE. 
+-- Divisão Territorial Brasileira apresenta a relação de subdistritos, distritos e municípios que compõem a divisão territorial brasileira oficial segundo o IBGE
 MODEL (
   name dtb.territorio,
-  kind FULL,
-  grain codigo_municipio_7
+  kind FULL
 );
 
 SELECT
-  codigo_regiao, -- código ibge para as regioes brasileiras: '1'='Norte';'2'='Nordeste';'3'='Sudeste';'4'='Sul';'5'='Centro-Oeste'; 
+  codigo_regiao, -- código ibge para as regioes brasileiras: 1=Norte;2=Nordeste;3=Sudeste;4=Sul;5=Centro-Oeste
   nome_regiao, -- nome da região: Norte, Nordeste, Sudeste, Sul, Centro-Oeste 
   codigo_uf, -- código do ibge com dois digitos que representam unicamente cada unidade da federação 
   sigla_uf, -- sigla da unidade da federação 

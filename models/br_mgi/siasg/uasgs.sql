@@ -1,3 +1,4 @@
+-- Dados sobre UASGs (Unidades Administrativas do Sistema de Serviços Gerais) extraídas do sistema SIASG do MGI através da API pública de compras do governo federal https://dadosabertos.compras.gov.br/swagger-ui/index.html#
 MODEL (
     name siasg.uasgs,
     kind FULL,
@@ -13,11 +14,11 @@ SELECT DISTINCT
   codigoMunicipio,  -- Código do município 
   codigoMunicipioIbge,  -- Código do município no IBGE
   nomeMunicipioIbge, -- Nome do município no IBGE
-  codigoUnidadePolo,
-  nomeUnidadePolo,
-  codigoUnidadeEspelho,
-  nomeUnidadeEspelho,
-  uasgCadastradora,
+  -- codigoUnidadePolo,
+  -- nomeUnidadePolo,
+  -- codigoUnidadeEspelho,
+  -- nomeUnidadeEspelho,
+  -- uasgCadastradora,
   cnpjCpfUasg,
   codigoOrgao,
   cnpjCpfOrgao,

@@ -1,3 +1,4 @@
+-- Dados sobre compras da saúde extraídas do sistema SIASG do MGI através da [API pública de compras do governo federal](https://dadosabertos.compras.gov.br/swagger-ui/index.html#)
 MODEL (
   name siasg.compras,
   kind FULL,
@@ -7,10 +8,10 @@ MODEL (
 SELECT DISTINCT
   idCompra, -- Identificador da compra
   idItemCompra, -- Identificador do item da compra
-  -- forma, -- Forma de aquisição do item
+  forma, -- Forma de aquisição do item
   modalidade, -- Modalidade de aquisição do item
   criterioJulgamento, -- Critério de julgamento da compra
-  -- numeroItemCompra, -- Número do item da compra
+  numeroItemCompra, -- Número do item da compra
   descricaoItem, -- Descrição do item
   codigoItemCatalogo, -- Código do item no catálogo
   nomeUnidadeMedida, -- Nome da unidade de medida
@@ -27,12 +28,12 @@ SELECT DISTINCT
   codigoUasg, -- Código da UASG
   nomeUasg, -- Nome da UASG
   codigoMunicipio, -- Código do município
-  -- municipio, -- Município
-  -- estado, -- Estado
-  -- codigoOrgao, -- Código do órgão
+  municipio, -- Município
+  estado, -- Estado
+  codigoOrgao, -- Código do órgão
   nomeOrgao, -- Nome do órgão
-  -- poder, -- Poder
-  -- esfera, -- Esfera
+  poder, -- Poder
+  esfera, -- Esfera
   dataCompra, -- Data da compra
   dataHoraAtualizacaoCompra, -- Data e hora da atualização da compra
   dataHoraAtualizacaoItem, -- Data e hora da atualização do item

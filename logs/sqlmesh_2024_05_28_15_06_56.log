@@ -1,0 +1,8 @@
+2024-05-28 15:06:56,003 - MainThread - sqlmesh.core.config.connection - INFO - Creating new DuckDB adapter for data files: {'data/catalog.db'} (connection.py:294)
+2024-05-28 15:06:56,044 - MainThread - sqlmesh.core.renderer - WARNING - Column '"codigo_regiao"' could not be resolved for model '"catalog"."dtb"."territorio"', the column may not exist or is ambiguous (renderer.py:506)
+2024-05-28 15:06:56,046 - MainThread - sqlmesh.core.renderer - WARNING - Column '"idCompra"' could not be resolved for model '"catalog"."siasg"."compras"', the column may not exist or is ambiguous (renderer.py:506)
+2024-05-28 15:06:56,048 - MainThread - sqlmesh.core.renderer - WARNING - Column '"codigoGrupo"' could not be resolved for model '"catalog"."siasg"."materiais"', the column may not exist or is ambiguous (renderer.py:506)
+2024-05-28 15:06:56,050 - MainThread - sqlmesh.core.renderer - WARNING - Column '"codigoUasg"' could not be resolved for model '"catalog"."siasg"."uasgs"', the column may not exist or is ambiguous (renderer.py:506)
+2024-05-28 15:06:56,052 - MainThread - sqlmesh.core.renderer - WARNING - Column '"codigoPdm"' could not be resolved for model '"catalog"."siasg"."unidades"', the column may not exist or is ambiguous (renderer.py:506)
+2024-05-28 15:06:56,287 - MainThread - sqlmesh.core.config.connection - INFO - Using existing DuckDB adapter due to overlapping data file: data/catalog.db (connection.py:290)
+2024-05-28 15:06:56,454 - MainThread - root - INFO - Shutting down the event dispatcher (dispatcher.py:159)

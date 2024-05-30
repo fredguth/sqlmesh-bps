@@ -1,12 +1,7 @@
+-- Dados sobre unidades de fornecimento de materiais da saúde extraídas do sistema SIASG (módulo CATMAT) do MGI através da API pública de compras do governo federal https://dadosabertos.compras.gov.br/swagger-ui/index.html#
 MODEL (
   name siasg.unidades,
-  kind FULL,
-  grain (
-    codigoPdm,
-    numeroSequencialUnidadeFornecimento,
-    statusUnidadeFornecimentoPdm,
-    dataHoraAtualizacao
-  )
+  kind FULL
 );
 
 SELECT DISTINCT
